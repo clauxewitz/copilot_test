@@ -3,4 +3,3 @@ function calculateDaysBetweenDates(begin, end) {
 }
 
 module.exports = calculateDaysBetweenDates;
-
