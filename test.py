@@ -14,3 +14,7 @@ def test_common_prefix():
     assert common_prefix('hello world', 'hello world!') == 'hello world'
     assert common_prefix('hello world!', 'hello world') == 'hello world'
     assert common_prefix('hello world!', 'hello world!') == 'hello world!'
+
+if __name__ == '__main__':
+    test_common_prefix()
+    
